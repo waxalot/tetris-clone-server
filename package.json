@@ -1,0 +1,42 @@
+{
+  "name": "tetris-clone-server",
+  "version": "0.0.1",
+  "description": "The server for the tetris clone.",
+  "main": "src/index.ts",
+  "keywords": [
+    "tetris",
+    "clone",
+    "server"
+  ],
+  "author": "Markus Lansink",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waxalot/tetris-clone-server.git"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.1",
+    "@types/express": "^4.0.35",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.13",
+    "@types/socket.io": "^1.4.29",
+    "browser-sync": "^2.17.5",
+    "chai": "^3.5.0",
+    "gulp-mocha": "^4.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.6",
+    "mocha": "^3.2.0",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typemoq": "^1.4.2",
+    "typescript": "^2.2.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.2"
+  }
+}
